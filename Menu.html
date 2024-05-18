@@ -1,0 +1,291 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="styles.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css"
+    />
+    <style>
+      body {
+        font-family: Arial, Helvetica, sans-serif;
+        margin: 0;
+        padding: 0;
+        background-color: #eeeeee;
+        height: 1000px;
+      }
+      .navbar {
+        background-color: white;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        position: fixed;
+        right: 0;
+        left: 0;
+        top: 0;
+      }
+      .navbar a {
+        float: left;
+        font-size: 16px;
+        font-weight: bold;
+        text-align: center;
+        padding: 14px 16px;
+        text-decoration: none;
+        margin-right: 20px;
+        color: black;
+      }
+
+      .navbar a img {
+        width: 130px;
+        height: 50px;
+        margin-left: 20px;
+      }
+
+      .container {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 180vh;
+        gap: 10px;
+        flex-direction: column;
+      }
+
+      .item {
+        display: flex;
+        gap: 50px;
+        height: 45vh;
+      }
+
+      .item-konten {
+        background-color: white;
+        height: 20, 5vh;
+        padding: 10px;
+        display: flex;
+        flex-direction: column;
+        gap: 15px;
+      }
+
+      img {
+        width: 250px;
+        height: 250px;
+      }
+      h5 {
+        font-weight: 1;
+        text-align: center;
+      }
+
+      p {
+        color: red;
+      }
+
+      button {
+        height: 400vh;
+        background-color: red;
+        color: white;
+        border: none;
+      }
+     
+    </style>
+  </head>
+  <body>
+    <div class="navbar">
+      <div>
+        <a href="index.html">
+          <img src="lorenzo-bakery-high-resolution-logo-transparent.png" alt="" />
+        </a>
+      </div>
+
+      <div>
+        <a href="categories.html">Categories</a>
+        <a href="Menu.html">Menu</a>
+        <a href="store.html">Store</a>
+         <a href="aboutus.html">About Us</a>
+      </div>
+    </div>
+
+    <div class="container">
+      <div class="item">
+        <div class="item-konten">
+          <img src="roti coklat.jpg" />
+          <div>
+            <h5>Roti Coklat</h5>
+            <p>Rp.9.900</p>
+            <i class="fa-solid fa-star" style="color: #ffd43b"></i>
+            <i class="fa-solid fa-star" style="color: #ffd43b"></i>
+            <i class="fa-solid fa-star" style="color: #ffd43b"></i>
+            <i class="fa-solid fa-star" style="color: #ffd43b"></i>
+            <i class="fa-solid fa-star" style="color: #ffd43b"></i>
+          </div>
+          <button>add to cart</button>
+        </div>
+
+        <div class="item-konten">
+          <img src="danish coklat.jpg" />
+          <div>
+            <h5>Danish Coklat Belepotan</h5>
+            <p>Rp.15.500</p>
+            <i class="fa-solid fa-star" style="color: #ffd43b"></i>
+            <i class="fa-solid fa-star" style="color: #ffd43b"></i>
+            <i class="fa-solid fa-star" style="color: #ffd43b"></i>
+            <i class="fa-solid fa-star" style="color: #ffd43b"></i>
+            <i class="fa-solid fa-star" style="color: #ffd43b"></i>
+          </div>
+          <button>add to cart</button>
+        </div>
+
+        <div class="item-konten">
+          <img src="roti bakso sapi.jpeg"/>
+          <div>
+            <h5>Roti Bakso Sapi</h5>
+            <p>Rp.13.400</p>
+            <i class="fa-solid fa-star" style="color: #ffd43b"></i>
+            <i class="fa-solid fa-star" style="color: #ffd43b"></i>
+            <i class="fa-solid fa-star" style="color: #ffd43b"></i>
+            <i class="fa-solid fa-star" style="color: #ffd43b"></i>
+            <i class="fa-solid fa-star" style="color: #ffd43b"></i>
+          </div>
+          <button>add to cart</button>
+        </div>
+
+        <div class="item-konten">
+          <img src="roti coklat keju.jpg" />
+          <div>
+            <h5>Roti Coklat Keju</h5>
+            <p>Rp.12.500</p>
+            <i class="fa-solid fa-star" style="color: #ffd43b"></i>
+            <i class="fa-solid fa-star" style="color: #ffd43b"></i>
+            <i class="fa-solid fa-star" style="color: #ffd43b"></i>
+            <i class="fa-solid fa-star" style="color: #ffd43b"></i>
+            <i class="fa-solid fa-star" style="color: #ffd43b"></i>
+          </div>
+          <button>add to cart</button>
+        </div>
+      </div>
+     
+
+      <div class="item">
+        <div class="item-konten">
+          <img src="Korean Garlic Cream.jpeg" />
+          <div>
+            <h5>Korean Garlic Cream</h5>
+            <p>Rp.14.900</p>
+            <i class="fa-solid fa-star" style="color: #ffd43b"></i>
+            <i class="fa-solid fa-star" style="color: #ffd43b"></i>
+            <i class="fa-solid fa-star" style="color: #ffd43b"></i>
+            <i class="fa-solid fa-star" style="color: #ffd43b"></i>
+            <i class="fa-solid fa-star" style="color: #ffd43b"></i>
+          </div>
+          <button>add to cart</button>
+        </div>
+
+        <div class="item-konten">
+          <img src="Roti Tawar Premium.jpg" />
+          <div>
+            <h5>Roti Tawar Premium</h5>
+            <p>Rp.25.500</p>
+            <i class="fa-solid fa-star" style="color: #ffd43b"></i>
+            <i class="fa-solid fa-star" style="color: #ffd43b"></i>
+            <i class="fa-solid fa-star" style="color: #ffd43b"></i>
+            <i class="fa-solid fa-star" style="color: #ffd43b"></i>
+            <i class="fa-solid fa-star" style="color: #ffd43b"></i>
+          </div>
+          <button>add to cart</button>
+        </div>
+
+        <div class="item-konten">
+          <img src="Roti Lady Finger Beef.jpg"/>
+          <div>
+            <h5>Roti Lady Finger Beef</h5>
+            <p>Rp.16.600</p>
+            <i class="fa-solid fa-star" style="color: #ffd43b"></i>
+            <i class="fa-solid fa-star" style="color: #ffd43b"></i>
+            <i class="fa-solid fa-star" style="color: #ffd43b"></i>
+            <i class="fa-solid fa-star" style="color: #ffd43b"></i>
+            <i class="fa-solid fa-star" style="color: #ffd43b"></i>
+          </div>
+          <button>add to cart</button>
+        </div>
+
+        <div class="item-konten">
+          <img src="Roti Mexican Coffe.jpg" />
+          <div>
+            <h5>Roti Mexican Coffee</h5>
+            <p>Rp.13.400</p>
+            <i class="fa-solid fa-star" style="color: #ffd43b"></i>
+            <i class="fa-solid fa-star" style="color: #ffd43b"></i>
+            <i class="fa-solid fa-star" style="color: #ffd43b"></i>
+            <i class="fa-solid fa-star" style="color: #ffd43b"></i>
+            <i class="fa-solid fa-star" style="color: #ffd43b"></i>
+          </div>
+          <button>add to cart</button>
+        </div>
+      </div>
+
+
+      <div class="item">
+        <div class="item-konten">
+          <img src="Roti Mocca Mesis.jpg" />
+          <div>
+            <h5>Roti Mocca Mesis</h5>
+            <p>Rp.10.500</p>
+            <i class="fa-solid fa-star" style="color: #ffd43b"></i>
+            <i class="fa-solid fa-star" style="color: #ffd43b"></i>
+            <i class="fa-solid fa-star" style="color: #ffd43b"></i>
+            <i class="fa-solid fa-star" style="color: #ffd43b"></i>
+            <i class="fa-solid fa-star" style="color: #ffd43b"></i>
+          </div>
+          <button>add to cart</button>
+        </div>
+
+        <div class="item-konten">
+          <img src="Roti Tawar Kering (toast).jpg" />
+          <div>
+            <h5>Roti Tawar Kering (toast)</h5>
+            <p>Rp.23.000</p>
+            <i class="fa-solid fa-star" style="color: #ffd43b"></i>
+            <i class="fa-solid fa-star" style="color: #ffd43b"></i>
+            <i class="fa-solid fa-star" style="color: #ffd43b"></i>
+            <i class="fa-solid fa-star" style="color: #ffd43b"></i>
+            <i class="fa-solid fa-star" style="color: #ffd43b"></i>
+          </div>
+          <button>add to cart</button>
+        </div>
+
+        <div class="item-konten">
+          <img src="Multi Grin Smoked Beef.jpeg"/>
+          <div>
+            <h5>Multi Grin Smoked Beef</h5>
+            <p>Rp.16.000</p>
+            <i class="fa-solid fa-star" style="color: #ffd43b"></i>
+            <i class="fa-solid fa-star" style="color: #ffd43b"></i>
+            <i class="fa-solid fa-star" style="color: #ffd43b"></i>
+            <i class="fa-solid fa-star" style="color: #ffd43b"></i>
+            <i class="fa-solid fa-star" style="color: #ffd43b"></i>
+          </div>
+          <button>add to cart</button>
+        </div>
+
+        <div class="item-konten">
+          <img src="Tuna Cheese Wheat.jpg" />
+          <div>
+            <h5>Tuna Cheese Wheat</h5>
+            <p>Rp.18.100</p>
+            <i class="fa-solid fa-star" style="color: #ffd43b"></i>
+            <i class="fa-solid fa-star" style="color: #ffd43b"></i>
+            <i class="fa-solid fa-star" style="color: #ffd43b"></i>
+            <i class="fa-solid fa-star" style="color: #ffd43b"></i>
+            <i class="fa-solid fa-star" style="color: #ffd43b"></i>
+          </div>
+          <button>add to cart</button>
+        </div>
+      </div>
+
+      
+    </div>
+
+    <div class="footer"></div>
+  </body>
+</html>
